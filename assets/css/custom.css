@@ -329,6 +329,10 @@ h1, h2, h3, h4, h5, h6{
 	.photos span {
 		opacity: 1;
 	}
+
+	#header {
+		background-size: cover;
+	}
 }
 
 @media (max-width: 480px) {
@@ -353,6 +357,6 @@ h1, h2, h3, h4, h5, h6{
 	}
 
 	#header {
-		background-size: contain !important;
+		background-size: cover;
 	}
 }
