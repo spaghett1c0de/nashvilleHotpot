@@ -204,25 +204,13 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #header {
-	background: url(../images/cover.jpg);
-	background-size: cover;
-}
-#services {
-	background-image: url(../images/traffic.jpg);
-	color: white;
-}
-#parallax {
-	background-image: url(../images/blue_mac2.jpg);
+	background-image: url(../images/cover.jpg);
 	color: white;
 }
 #contact {
 	background-image: url(../images/newsletter-bg.png);
 	color: white;
 	background-color: #405162;
-}
-#parallax h1{
-	margin-bottom: 60px;
-	color: white;
 }
 
 
@@ -274,57 +262,6 @@ h1, h2, h3, h4, h5, h6{
 }
 .photos:hover:before, .photos:hover span {
     opacity: 1;
-}
-
-
-
-
-
-/*////////////////////////////////////////////////////////////////////////
-//  06 - Services
-///////////////////////////////////////////////////////////////////////*/
-
-#services h1, #services h2{
-	color: white;
-}
-.service i {
-    font-size: 60px;
-}
-.service {
-    padding: 0 25px;
-}
-
-
-
-
-/*////////////////////////////////////////////////////////////////////////
-//  07 - Blog
-///////////////////////////////////////////////////////////////////////*/
-
-
-#blog .blog-post img {
-    margin-bottom: 20px;
-}
-#blog .date {
-    margin-bottom: 15px;
-    font-style: italic;
-}
-
-
-/*////////////////////////////////////////////////////////////////////////
-//  08 - Testimonials
-///////////////////////////////////////////////////////////////////////*/
-
-
-#testimonials{
-	text-align: center;
-}
-#testimonials .testimonial > img {
-    border-radius: 100%;
-    margin-bottom: 15px;
-}
-#testimonials .testimonial {
-	padding: 25px;
 }
 
 
