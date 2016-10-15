@@ -331,7 +331,7 @@ h1, h2, h3, h4, h5, h6{
 	}
 }
 
-@media (max-width: 480px) {
+@media (min-width: 350px) and (max-width: 480px) {
 	#drawer-right {
 		padding: 10px 20px;
 	}
@@ -353,7 +353,6 @@ h1, h2, h3, h4, h5, h6{
 	}
 
 	#header {
-		background-image: url(../images/cover.jpg);
-		background-size: cover 50%;
+		background-size: cover;
 	}
 }
