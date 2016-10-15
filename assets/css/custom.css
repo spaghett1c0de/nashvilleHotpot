@@ -317,9 +317,6 @@ h1, h2, h3, h4, h5, h6{
 
 
 @media (max-width: 767px){
-	.blog-post {
-		margin-bottom: 40px;
-	}
 
 	.photos {
 		background-position: center;
@@ -357,6 +354,6 @@ h1, h2, h3, h4, h5, h6{
 
 	#header {
 		background-image: url(../images/cover.jpg);
-		background-size: cover;
+		background-size: cover 50%;
 	}
 }
