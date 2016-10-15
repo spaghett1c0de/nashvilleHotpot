@@ -208,7 +208,7 @@ h1, h2, h3, h4, h5, h6{
 	height: 100%;
 	margin: 0px;
 	background-image: url(../images/cover.jpg);
-	background-size: cover;
+	background-size:100% auto;
 }
 #services {
 	background-image: url(../images/traffic.jpg);
