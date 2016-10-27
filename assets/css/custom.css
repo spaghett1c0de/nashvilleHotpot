@@ -169,8 +169,11 @@ h1, h2, h3, h4, h5, h6{
 	font-size: 18px;
 	border-radius: 0;
 }
+#drawer-right .nav-pills {
+	margin-top: 20px;
+}
 
-#drawer-right .social{margin-top: 70px;}
+#drawer-right .social{margin-top: 80px;}
 #drawer-right .social ul {
     list-style: none;
     padding-left: 20px;
