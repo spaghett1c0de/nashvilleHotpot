@@ -1,7 +1,5 @@
-
-
-/*
- * Globals
+/**
+ * 01 Globals
  */
 
 ::selection {
@@ -20,6 +18,7 @@ html {
 body {
 	color: #6a6a6a;	
 	background: #f1f0f0;
+	background-image: url(../images/body_background.jpg);
 }
 
 p {margin: 0 0 20px 0;	}
@@ -72,9 +71,9 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
-/*////////////////////////////////////////////////////////////////////////
-//  02 - Header
-///////////////////////////////////////////////////////////////////////*/
+/**
+ * 02 Headers
+ */
 
 #header{	
 	position: relative;			
@@ -150,9 +149,9 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
-/*////////////////////////////////////////////////////////////////////////
-//  03 - Drawer with menu
-///////////////////////////////////////////////////////////////////////*/
+/**
+ * 03 Drawer with Menu
+ */
 
 #drawer-right {
     position: fixed;
@@ -185,9 +184,9 @@ h1, h2, h3, h4, h5, h6{
 
 
 
-/*////////////////////////////////////////////////////////////////////////
-//  04 - Parallax styles
-///////////////////////////////////////////////////////////////////////*/
+/**
+ * 04 Parallax Styles
+ */
 
 .content-block{
 	background:transparent no-repeat center center fixed;
@@ -214,18 +213,23 @@ h1, h2, h3, h4, h5, h6{
 	background-image: url(../images/cover.jpg);
 	color: white;
 }
+
 #contact {
-	background-image: url(../images/newsletter-bg.png);
+	background-image: url(../images/contact_background.jpg);
 	color: white;
 	background-color: #405162;
 }
 
+#menu {
+	background-image: url(../images/menu_background.jpg);
+	color: white;
+}
 
 
 
-/*////////////////////////////////////////////////////////////////////////
-//  05 - photos
-///////////////////////////////////////////////////////////////////////*/
+/**
+ * 05 Photos
+ */
 
 .photos {
     width: 100%;

@@ -112,13 +112,13 @@
 	//Set Down Arrow Button
 	jQuery('#scrollToContent').click(function(e){
 		e.preventDefault();
-		jQuery.scrollTo("#gallery", 1000, { offset:-(jQuery('#header .top').height()), axis:'y' });
+		jQuery.scrollTo("#menu", 1000, { offset:-(jQuery('#header .top').height()), axis:'y' });
 	});
 
 	jQuery('nav > ul > li > a').click(function(e){
 		e.preventDefault();
 		jQuery.scrollTo(jQuery(this).attr('href'), 400, { offset:-(jQuery('#header .top').height()), axis:'y' });
-	})
+	});
 
 	jQuery(window).scroll( function() {
 	   setHeaderBackground();
