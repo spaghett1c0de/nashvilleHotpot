@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6{
 
 
 #header .top {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	width: 100%;
 	padding: 30px;
@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6{
 	transition: all .5s;		
 }
 #header .top.solid {
-    background: transparent;
+    background: #475B6F;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -107,17 +107,13 @@ h1, h2, h3, h4, h5, h6{
 }
 #header .top.solid .toggleDrawer i {
     padding-top: 8px;
-    position: fixed;
+    position: relative;
 }
 
 #header .logo, #header .toggleDrawer {
 	font-family: 'Alegreya SC';
 	color: white;
 	src: url('http://fonts.googleapis.com/css?family=Alegreya+SC:regular,italic,bold,bolditalic');
-}
-
-#header .toggleDrawer {
-	color: #475B6F;
 }
 
 #header .slogan{
