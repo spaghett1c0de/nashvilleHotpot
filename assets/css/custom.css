@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6{
 	transition: all .5s;		
 }
 #header .top.solid {
-    background: transparent;
+    background: #475B6F;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -107,6 +107,7 @@ h1, h2, h3, h4, h5, h6{
 }
 #header .top.solid .toggleDrawer i {
     padding-top: 8px;
+    position: absolute;
 }
 
 #header .logo, #header .toggleDrawer{
