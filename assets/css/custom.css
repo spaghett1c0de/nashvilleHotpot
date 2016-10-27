@@ -102,11 +102,11 @@ h1, h2, h3, h4, h5, h6{
     padding-bottom: 15px;
 }
 
-#header .top h1{
+#header .top.solid h1{
 	margin-bottom: 0;
 }
 #header .top.solid .toggleDrawer i {
-    padding-top: 8px;
+    padding-top: 0px;
 }
 
 #header .logo, #header .toggleDrawer{
