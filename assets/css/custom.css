@@ -1,11 +1,4 @@
-/*
- * Imports
- */
-@import url("http://fonts.googleapis.com/css?family=PT+Sans");
-@import url("http://fonts.googleapis.com/css?family=Droid+Serif:regular,bold");
-@import url("http://fonts.googleapis.com/css?family=Alegreya+Sans:regular,italic,bold,bolditalic");
-@import url("http://fonts.googleapis.com/css?family=Nixie+One:regular,italic,bold,bolditalic");
-@import url("http://fonts.googleapis.com/css?family=Alegreya+SC:regular,italic,bold,bolditalic");
+
 
 /*
  * Globals
@@ -56,6 +49,7 @@ h1, h2, h3, h4, h5, h6{
 	margin: 0 0 15px 0;	
 	color: #3A4F52;
 	font-family: 'Alegreya Sans';
+	src: url('https://fonts.googleapis.com/css?family=Alegreya+Sans:regular,italic,bold,bolditalic');
 }
 
 .btn{border-radius: 0;}
@@ -118,6 +112,7 @@ h1, h2, h3, h4, h5, h6{
 #header .logo, #header .toggleDrawer{
 	font-family: 'Alegreya SC';
 	color: white;
+	src: url('http://fonts.googleapis.com/css?family=Alegreya+SC:regular,italic,bold,bolditalic');
 }
 
 #header .slogan{
@@ -126,6 +121,7 @@ h1, h2, h3, h4, h5, h6{
 	line-height: 1em;
 	font-family: 'Nixie One';
 	color: white;
+	src: url('http://fonts.googleapis.com/css?family=Nixie+One:regular,italic,bold,bolditalic');
 }
 
 #header .secondary-slogan{
@@ -133,6 +129,7 @@ h1, h2, h3, h4, h5, h6{
 	color: rgba(255,255,255,.5);
 	line-height: 1em;
 	font-family: 'Alegreya SC';
+	src: url('http://fonts.googleapis.com/css?family=Alegreya+SC:regular,italic,bold,bolditalic');
 }
 
 #header > .bottom {
